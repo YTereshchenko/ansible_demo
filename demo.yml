@@ -1,12 +1,12 @@
 - hosts: windows
   gather_facts: no
   tasks:
-#  - win_chocolatey:
- #     name: procexp
-  #    state: absent
   - win_chocolatey:
-      name: git
-      state: absent
+      name: procexp
+      state: present
+#  - win_chocolatey:
+#     name: git
+#     state: absent
 #  -  win_updates:
 #  #      register: update_result
 #  #  - win_reboot:
