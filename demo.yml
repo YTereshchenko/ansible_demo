@@ -1,10 +1,9 @@
-#demo 
 - hosts: windows
   gather_facts: no
   tasks:
-  - win_chocolatey:
-      name: procexp
-      state: absent
+#  - win_chocolatey:
+ #     name: procexp
+  #    state: absent
   - win_chocolatey:
       name: git
       state: absent
