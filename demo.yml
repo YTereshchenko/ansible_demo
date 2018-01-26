@@ -3,7 +3,7 @@
   tasks:
   - win_chocolatey:
       name: procexp
-      state: present
+      state: absent
 #  - win_chocolatey:
 #     name: git
 #     state: absent
